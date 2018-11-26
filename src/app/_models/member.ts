@@ -12,4 +12,5 @@ export class Member {
   public spec: Spec;
   public pictureUrl: string;
   public image: string;
+  public role: string;
 }

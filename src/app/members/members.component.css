@@ -7,8 +7,39 @@
   text-align: center;
 }
 
-h3 {
+
+#test {
+  float:left;
+  min-height: 750px;
+  background-size: 100%;
   position: relative;
+  top: 0;
+  left: 0;
+  background: no-repeat;
+  height: auto;
+  padding:50px 50px 0 50px;
+
+}
+
+h3 {
+  position: absolute;
+  color: aliceblue;
+  bottom: 100px;
+}
+
+.character-class {
   color: aliceblue;
 }
 
+.character-role {
+  color: aliceblue;
+}
+
+.ultra-character-cards {
+  margin: 0;
+  padding:0;
+}
+
+.clear {
+clear:both;
+}

@@ -1,8 +1,11 @@
 <div class="row">
   <ng-container class="ultra-character-cards" *ngFor="let character of characters">
+    <div id="test" class="col-md-4" [ngStyle]="{ 'background-image': 'url(data:image/jpg;base64,'+character.image+')'}">
       <h3>{{character.name}}</h3>
-      <div class="caption col-md-2" [ngStyle]="{ 'background-image': 'url(data:image/jpg;base64,'+character.image+')'}">
-      </div>
+      <div class="character-class">{{character.achievementPoints}}</div>
+      <div class="character-role">{{character.spec.role}}</div>
+    </div>
+    <div class="clear"></div>
   </ng-container>
 </div>
 
